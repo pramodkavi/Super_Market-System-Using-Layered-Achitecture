@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="context" prefHeight="321.0" prefWidth="644.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.KPDev.pos.controller.DashboardFormController">
+   <children>
+      <Button layoutX="51.0" layoutY="74.0" mnemonicParsing="false" onAction="#btnCustomerOnAction" prefHeight="86.0" prefWidth="168.0" style="-fx-background-color: #00b9f2;" text="Customer Management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="232.0" layoutY="14.0" text="DASHBOARD" textFill="#00b9f2">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="439.0" layoutY="74.0" mnemonicParsing="false" onAction="#btnPlaceOrderOnAction" prefHeight="86.0" prefWidth="168.0" style="-fx-background-color: #00b9f2;" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="238.0" layoutY="74.0" mnemonicParsing="false" onAction="#btnProductOnAction" prefHeight="86.0" prefWidth="168.0" style="-fx-background-color: #00b9f2;" text="Product Management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="127.0" layoutY="188.0" mnemonicParsing="false" onAction="#btnOrderDetailOnAction" prefHeight="86.0" prefWidth="168.0" style="-fx-background-color: #00b9f2;" text="Order Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="328.0" layoutY="188.0" mnemonicParsing="false" onAction="#btnIncomeReportOnAction" prefHeight="86.0" prefWidth="168.0" style="-fx-background-color: #00b9f2;" text="Income Report" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Separator layoutX="4.0" layoutY="52.0" prefHeight="1.0" prefWidth="636.0" />
+   </children>
+</AnchorPane>
